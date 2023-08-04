@@ -1,7 +1,15 @@
 const Home = () => {
 	return (
 		<div>
-			<h2 className="text-4xl text-red-600">this is home page.</h2>
+			<p className="leading-normal ...">
+				So I started to walk into the water...
+			</p>
+			<p className="leading-relaxed ...">
+				So I started to walk into the water...
+			</p>
+			<p className="leading-loose ...">
+				So I started to walk into the water...
+			</p>
 		</div>
 	);
 };

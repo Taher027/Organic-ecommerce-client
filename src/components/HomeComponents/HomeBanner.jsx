@@ -1,13 +1,10 @@
 import backgroundImage from "../../assets/Home/background.jpg";
-import MainContainer from "../Container";
-
 const HomeBanner = () => {
 	return (
 		<div
-			className="min-h-[700px]  w-full bg-no-repeat bg-cover"
+			className="h-[360px] w-full  md:min-h-[500px] lg:min-h-[700px]  bg-no-repeat bg-cover"
 			style={{
 				background: `linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0,.4)), url(${backgroundImage})`,
-				// backgroundImage: `url(${backgroundImage})`,
 				backgroundPosition: "center",
 				backgroundRepeat: "no-repeat",
 				backgroundSize: "cover",

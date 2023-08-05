@@ -1,13 +1,5 @@
-import { toast } from "react-hot-toast";
-
 function App() {
-	return (
-		<div>
-			<button onClick={() => toast("hello tost work successfully!")}>
-				toast me
-			</button>
-		</div>
-	);
+	return <div></div>;
 }
 
 export default App;

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import { BiSearch } from "react-icons/bi";
+import MainContainer from "../../components/Container";
 const Header = () => {
 	const menuItems = (
 		<>
@@ -23,7 +24,7 @@ const Header = () => {
 	);
 	return (
 		<header>
-			<div className="navbar w-[90vw] mx-auto">
+			<MainContainer>
 				<div className="navbar-start">
 					<div className="dropdown">
 						<label tabIndex={0} className="btn btn-ghost lg:hidden" size={18}>
@@ -95,7 +96,7 @@ const Header = () => {
 						</div>
 					</div>
 				</div>
-			</div>
+			</MainContainer>
 		</header>
 	);
 };

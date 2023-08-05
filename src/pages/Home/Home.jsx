@@ -1,3 +1,4 @@
+import HomeAbout from "../../components/HomeComponents/HomeAbout";
 import HomeBanner from "../../components/HomeComponents/HomeBanner";
 import OfferBanner from "../../components/HomeComponents/OfferBanner";
 
@@ -6,6 +7,7 @@ const Home = () => {
 		<>
 			<HomeBanner></HomeBanner>
 			<OfferBanner></OfferBanner>
+			<HomeAbout></HomeAbout>
 		</>
 	);
 };

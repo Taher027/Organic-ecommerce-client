@@ -1,0 +1,74 @@
+[
+	{
+		"id": "1",
+		"name": "Calabrese Broccoli",
+		"price": "20.00",
+		"offerPrice": "13.00",
+		"reviews": "*****",
+		"category": "VegeTable",
+		"img": "https://ibb.co/bNpSwLt"
+	},
+	{
+		"id": "2",
+		"name": "Fresh Banana Fruits",
+		"price": "20.00",
+		"offerPrice": "14.00",
+		"reviews": "*****",
+		"category": "Fresh",
+		"img": "https://ibb.co/VNPv1Mv"
+	},
+	{
+		"id": "3",
+		"name": "White Nuts",
+		"price": "20.00",
+		"offerPrice": "15.00",
+		"reviews": "*****",
+		"category": "Millets",
+		"img": "https://ibb.co/NnLbtmW"
+	},
+	{
+		"id": "4",
+		"name": "Vegan Red Tomato",
+		"price": "20.00",
+		"offerPrice": "17.00",
+		"reviews": "*****",
+		"category": "VegeTable",
+		"img": "https://ibb.co/jD55YnL"
+	},
+	{
+		"id": "5",
+		"name": "Mung Bean",
+		"price": "20.00",
+		"offerPrice": "11.00",
+		"reviews": "*****",
+		"category": "Health",
+		"img": "https://ibb.co/2yTys13"
+	},
+	{
+		"id": "6",
+		"name": "Brown Hazelnut",
+		"price": "20.00",
+		"offerPrice": "12.00",
+		"reviews": "*****",
+		"category": "Nuts",
+		"img": "https://ibb.co/cD6N1Xn"
+	},
+	{
+		"id": "7",
+		"name": "Eggs",
+		"price": "20.00",
+		"offerPrice": "17.00",
+		"reviews": "*****",
+		"category": "Fresh",
+		"img": "https://ibb.co/XyK7yVM"
+	},
+	{
+		"id": "8",
+		"name": "Zelco Suji Elachi Rusk",
+		"price": "20.00",
+		"offerPrice": "15.00",
+		"reviews": "*****",
+		"category": "Fresh",
+		"img": "https://ibb.co/R3b8Y6X"
+	}
+]

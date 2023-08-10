@@ -8,6 +8,9 @@ const HomeBanner = () => {
 				backgroundPosition: "center",
 				backgroundRepeat: "no-repeat",
 				backgroundSize: "cover",
+				objectFit: "cover",
+				width: "100%",
+				height: "auto",
 			}}
 		>
 			<h4 className="text-3xl font-normal text-white italic text-center pt-[150px]">

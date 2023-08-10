@@ -5,7 +5,7 @@ import VeganFood from "../../assets/Home/vegan.png";
 const HomeAbout = () => {
 	return (
 		<section className="w-full bg-[#F9F8F8]">
-			<div className="lg:flex w-[90vw]  justify-center py-14 md:py-10 md:px-8">
+			<div className="lg:flex w-full lg:w-[90vw]  justify-center mx-4 py-14 md:py-10 md:px-8 ">
 				<div>
 					<img
 						className="md:w-4/5 h-full lg:w-full ml-[5%]"
@@ -13,7 +13,7 @@ const HomeAbout = () => {
 						alt="about-image"
 					/>
 				</div>
-				<div className="pl-16 ">
+				<div className="pl-4 md:pl-16 ">
 					<p className="text-lg md:text-4xl font-normal text-[#7EB693] italic md:mt-9 md:-ml-4">
 						About Us
 					</p>

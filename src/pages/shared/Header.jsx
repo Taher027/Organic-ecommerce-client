@@ -25,7 +25,7 @@ const Header = () => {
 	return (
 		<header>
 			<MainContainer>
-				<div className="navbar w-[90vw] mx-auto">
+				<div className="navbar w-full lg:w-[90vw] mx-auto">
 					<div className="navbar-start">
 						<div className="dropdown">
 							<label tabIndex={0} className="btn btn-ghost lg:hidden" size={18}>

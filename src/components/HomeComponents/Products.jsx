@@ -12,7 +12,7 @@ const Products = () => {
 	}, []);
 
 	return (
-		<div className="w-full lg:w-[90%] mx-auto py-24 ">
+		<div className="w-full lg:w-[90vw] mx-auto py-24 ">
 			<div className="w-full">
 				<p className="text-4xl text-[#7EB693] font-normal italic text-center ">
 					Categories{" "}
@@ -20,7 +20,7 @@ const Products = () => {
 				<h2 className="text-[#274C5B] text-center font-bold text-[50px]">
 					Our Products
 				</h2>
-				<div className="mt-10 ml-4 mr-4 grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 lg:gap-10 justify-center items-center ">
+				<div className="mt-10 mx-5 grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4  lg:gap-10 justify-center items-center ">
 					{products?.map((product) => (
 						<SingleProducts key={product.id} product={product}></SingleProducts>
 					))}

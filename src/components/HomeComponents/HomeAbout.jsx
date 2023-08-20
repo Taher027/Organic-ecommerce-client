@@ -4,20 +4,16 @@ import VeganFood from "../../assets/Home/vegan.png";
 
 const HomeAbout = () => {
 	return (
-		<section className="w-full bg-[#F9F8F8]">
-			<div className="lg:flex w-full lg:w-[90vw]  justify-center mx-4 py-14 md:py-10 md:px-8 ">
-				<div>
-					<img
-						className="md:w-4/5 h-full lg:w-full ml-[5%]"
-						src={aboutImg}
-						alt="about-image"
-					/>
+		<section className="w-full  bg-[#F9F8F8]">
+			<div className="mx-0 sm:mx-5 lg:flex w-full lg:w-[90vw] items-center ">
+				<div className="">
+					<img src={aboutImg} alt="about-image" />
 				</div>
-				<div className="pl-4 md:pl-16 ">
+				<div className="pl-4 md:pl-16">
 					<p className="text-lg md:text-4xl font-normal text-[#7EB693] italic md:mt-9 md:-ml-4">
 						About Us
 					</p>
-					<h2 className="text-[#274C5B] text-3xl md:text-5xl lg:text-6xl font-extrabold md:-ml-4 md:mt-6">
+					<h2 className="text-[#274C5B] text-3xl md:text-4xl lg:text-6xl font-extrabold md:-ml-4 md:mt-6">
 						We Believe in Working <br /> Accredited Farmers
 					</h2>
 					<p className="text-lg md:text-xl text-[#525C60] font-normal mt-4">
